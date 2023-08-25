@@ -23,29 +23,35 @@
 }
 
 .hero-title {
-  color: var(--blue-font, #0a224a);
+  color: var(--blue-font);
   font-family: Playfair Display;
   font-size: 28px;
   line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 14px;
-  max-width: 285px;
+  max-width: 290px;
   padding-top: 140px;
+  font-weight: 400;
 }
 
 .hero-text {
-  color: var(--blue-font, #0a224a);
-  font-family: Roboto;
+  color: var(--blue-font);
   line-height: 1.5;
   margin-bottom: 28px;
   max-width: 343px;
+  font-weight: 400;
 }
 .hero-link {
-  color: var(--white, #fff);
-  font-family: Roboto;
+  color: var(--white);
   line-height: 1.5;
   background-color: #0a224a;
-  padding: 12px 65px;
+  padding: 17px 76px;
+  font-weight: 400;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  background-color: #061835;
 }
 
 /* &------------TAB-ADAPTATION============= */
@@ -57,7 +63,7 @@
     background-image: url(/img/hero/background-tab-left.jpg),
       url(/img/hero/background-tab.jpg);
     background-size: 308px 329px, 364px 531px;
-    background-position: left 29px bottom 266px, right 29px bottom 266px;
+    background-position: left 20px top 200px, right 29px top;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -76,8 +82,6 @@
 
   .hero-title {
     font-size: 50px;
-    line-height: 1.5;
-    text-transform: uppercase;
     max-width: 648px;
     padding-top: 0%;
     margin-bottom: 410px;
@@ -90,8 +94,8 @@
   }
 
   .hero-link {
-    padding: 17px 65px;
     font-size: 18px;
+    display: inline-block;
   }
 }
 
@@ -135,12 +139,5 @@
 
   .hero-title {
     margin-bottom: 240px;
-  }
-
-  .hero-text {
-  }
-
-  .hero-link {
-    margin-right: ;
   }
 }
