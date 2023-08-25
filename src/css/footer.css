@@ -1,0 +1,235 @@
+/*! ------------------LOGO-AND-SOCIAL ICON---------------- */
+.footer {
+  background-color: #0a224a;
+}
+.footer-container {
+  padding: 36px 16px 16px 16px;
+}
+.footer-svg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.footer-logo {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+.footer-logo-icon {
+  fill: #ffff;
+  flex-shrink: 0;
+}
+
+.footer-list-svg {
+  display: flex;
+  margin: 0;
+  padding-left: 0px;
+  gap: 16px;
+}
+.footer-social-svg {
+  fill: #ffff;
+}
+.footer-svg-link {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+.footer-logo-link {
+  height: 16px;
+}
+/*! ------------------FOOTER MENU---------------- */
+.footer-menu {
+  margin-bottom: 36px;
+}
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-menu-link {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/*! -----------------FOOTER ADRESS------------------ */
+.footer-adress {
+  margin-bottom: 35px;
+}
+.footer-adress-list {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01em;
+}
+
+.footer-adress-link {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01em;
+}
+
+/*! ------------------footer number -------------- */
+.footer-contacts-number {
+  margin-bottom: 64px;
+}
+.footer-contacts-link {
+  color: #ffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01em;
+}
+.footer-number-item:first-child {
+  margin-bottom: 8px;
+}
+.hiddan-mail {
+  display: none;
+}
+
+/*! ----------------------------footer privacy---------- */
+.footer-privacy {
+  opacity: 0.6;
+  color: #ffff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2; /* 116.667% */
+  letter-spacing: 0.18em;
+}
+.footer-privacy-polisy {
+  color: #ffff;
+  text-decoration: underline;
+}
+
+/** --------------RESPONSIVE-------------- */
+@media screen and (min-width: 768px) {
+  .footer-logo-icon {
+    width: 127px;
+    height: 16px;
+  }
+  .footer-container {
+    max-width: 704px;
+    padding: 36px 32px 36px 32px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /*! ------------------LOGO-AND-SOCIAL ICON---------------- */
+  .footer-item-svg {
+    height: 40px;
+    width: 40px;
+  }
+  .footer-svg {
+    margin-bottom: 22px;
+  }
+  .footer-social-svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  /*! ------------------FOOTER MENU---------------- */
+  .footer-menu {
+    display: inline-flex;
+    position: absolute;
+    top: 36px;
+    right: 250px;
+    margin-bottom: 0px;
+    padding: 8px 8px;
+  }
+  .footer-menu-list {
+    gap: 16px;
+  }
+
+  /*! -----------------FOOTER ADRESS------------------ */
+  .footer-adress {
+    margin-bottom: 64px;
+  }
+  .footer-adress-list {
+    gap: 24px;
+  }
+
+  /*! ------------------footer number -------------- */
+
+  .hiddan-mail {
+    display: block;
+  }
+  .footer-number-item {
+    font-family: Roboto;
+    font-size: 19px;
+    letter-spacing: 0.01em;
+  }
+  .footer-number-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .footer-number-item:first-child {
+    margin-bottom: 0;
+  }
+  .footer-contacts-number {
+    margin-bottom: 64px;
+  }
+  /*! ----------------------------footer privacy---------- */
+  .footer-privacy {
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: 0.08em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    max-width: 1376px;
+    margin: 0 auto;
+    position: relative;
+  }
+  /*! ------------------LOGO-AND-SOCIAL ICON---------------- */
+  .footer-svg {
+    margin-bottom: 39px;
+  }
+  /*! ------------------FOOTER MENU---------------- */
+
+  .footer-menu {
+    left: 396px;
+    top: 36px;
+  }
+
+  .footer-menu-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+  /*! -----------------FOOTER ADRESS------------------ */
+  .footer-adress {
+    margin-bottom: 35px;
+  }
+  /*! ------------------footer number -------------- */
+
+  .footer-contacts-number {
+    max-width: 350px;
+    position: absolute;
+    top: 103px;
+    left: 396px;
+    margin-bottom: 0;
+  }
+  .footer-number-list {
+    flex-wrap: wrap;
+    height: 70px;
+    gap: 24px 82px;
+  }
+}
