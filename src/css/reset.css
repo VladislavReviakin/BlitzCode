@@ -33,3 +33,92 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .page-title {
+    color: var(--blue-font, #0a224a);
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 150% */
+    text-transform: uppercase;
+  }
+  .section-title {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 150% */
+    text-transform: uppercase;
+  }
+  .title {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 150% */
+    text-transform: uppercase;
+  }
+  .section-text {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-title {
+    color: var(--blue-font, #0a224a);
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    /* 150% */
+    text-transform: uppercase;
+  }
+  .section-title {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 140.625% */
+    text-transform: uppercase;
+  }
+  .title {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    /* 140.625% */
+    text-transform: uppercase;
+  }
+  .section-text {
+    color: var(--blue-font, #0a224a);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+  }
+}
