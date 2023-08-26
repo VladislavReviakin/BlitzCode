@@ -68,18 +68,18 @@
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; 
-  /* animation: blink 3s linear infinite;
-  background: #0A224A */
+  animation: blink 3s linear infinite;
+  background: #0A224A
 }
 /* ---------Animation of button-------- */
-/* @keyframes blink {
+@keyframes blink {
   0%, 20% {
     background: #a9a5a5;
   }
   10% {
     background: rgb(248, 245, 245);
   }
-} */
+}
 
 
 
@@ -113,18 +113,8 @@ line-height: 1.5;
 }
 /* --------------------------------------------------------------- */
 
-
-
-
-
 .subscribe-form-btn:hover {
   background-color: #061835;
-}
-
-.checkbox-subscribe-input {
-}
-.subscribe-checkbox-text {
-  /* margin-bottom: 30px; */
 }
 
 .check-span {
@@ -137,7 +127,7 @@ line-height: 1.5;
   border: 1px solid var(--dark-grey, #b6b6b6);
   border-radius: 2px;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-    /* border 250ms cubic-bezier(0.4, 0, 0.2, 1), */ fill 350ms
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 350ms
       cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -159,15 +149,10 @@ line-height: 1.5;
   border-color: var(--hover-state);
   color: var(--hover-state);
 }
-.subscribe-icon-check {
-}
 
-.subscribe-label-text {
-}
-
-.subscribe-picture {
+/* .subscribe-picture {
   background: var(--light-gray) -83.046px 0px / 137.761% 100% no-repeat;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 1440px) {
@@ -177,7 +162,7 @@ line-height: 1.5;
     align-items: center;
     /* justify-content: space-between; */
     /* flex-wrap: wrap; */
-    padding: 100px 140px 86px;
+    /* padding: 100px 140px 86px; */
     gap: 100px;
   }
   .section-title {  
