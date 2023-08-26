@@ -1,4 +1,16 @@
 
+
+:root {
+  --dark-grey: #b6b6b6;
+  --blue-font: #0a224a;
+  --black-gray: #7a7a7a;
+  --light-gray: #d9d9d9;
+  --error-state: #e74a3b;
+  --hover-state: #0a224a;
+  --white: #fff;
+   --light-blue:   #F7FAFF;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -103,6 +115,7 @@ line-height: 1.5;
 .subscribe-input:focus:invalid {
   border: 1px solid var(--error-state);
   color: var(--error-state);
+  outline: none;
 }
 
 /* ---------------znak okliku---------------------------------- */
@@ -177,7 +190,7 @@ line-height: 1.5;
     display: flex;
     width: 100%;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: cen;
     /* flex-wrap: wrap; */
     /* padding: 100px 140px 86px; */
     gap: 100px;

@@ -1,13 +1,15 @@
 
 
-.container {
-  padding-top: 64px;
-  padding-bottom: 64px;
+.clients {
+  padding-top: 36px;
+  padding-bottom: 36px;
   background-color: var(--light-blue);
   /* background-color: rgb(199, 188, 199); */
 }
 .section-title {
   text-align: center;
+
+  margin-bottom: 30px;
   
 
   color: var(--blue-font, #0A224A);
@@ -35,8 +37,7 @@ text-transform: uppercase;
 .client-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
+   align-items: stretch;
   margin: 0 auto;
  
 }
@@ -45,8 +46,9 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-padding: 24px 22px;
-  background-color: var(--white);
+padding: 24px 23px;
+border-radius: 8px;
+background-color: var(--white);
 
   /* width: calc((100% - 48px) / 3); */
 }
@@ -74,7 +76,7 @@ line-height: 1.4;
 }
 .wrap-img {
   display: flex;
-  margin: 32px 0 14px 0;
+ margin-bottom: 14px;
   gap: 14px;
   align-items: center;
 }
@@ -87,7 +89,7 @@ line-height: 1.4;
 }
 
 /* ------------------------media--------------- */
-@media screen and (min-width: 120px) {
+@media screen and (min-width: 100px) {
   .client-item:nth-child(3) {
     display: none;
   }
@@ -102,6 +104,9 @@ line-height: 1.4;
   .client-text {
     max-width: 296px; width: 100%;
   }
+  .client-item {
+    padding: 24px 14px;
+  }
 }
 /* -------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
@@ -112,8 +117,11 @@ line-height: 1.4;
     display: flex;
   }
 
-  .client-item {
+  
+
+.client-item {
     width: calc((100% - 16px) / 2);
+    padding: 24px 24px;
   }
 
     
@@ -148,6 +156,10 @@ text-transform: uppercase;
     line-height: 2.25;    
 }
 
+.client-list {
+    gap: 16px;
+}
+
 }
 /* ---------------------------------------------------------------------- */
 @media screen and (min-width: 1440px) {
@@ -159,6 +171,9 @@ text-transform: uppercase;
     padding: 32px 32px;
   }
  
+  .client-list {
+    gap: 23px;
+  }
   .client-text {
     max-width: 360px;
     width: 100%;
@@ -192,6 +207,10 @@ text-transform: uppercase;
     line-height: 2.25;    
 }
 
+.clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 }
 
