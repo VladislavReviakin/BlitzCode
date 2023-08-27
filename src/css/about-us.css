@@ -1,8 +1,21 @@
 /*------------------- Section About-us--- Inha------------------------------*/
+.about-section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 375px) {
+    .about-section {
+        max-width: 375px;
+
+
+    }
+}
 
 @media screen and (min-width: 768px) {
     .about-section {
         padding-top: 100px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -10,6 +23,7 @@
 
 @media screen and (min-width: 1440px) {
     .about-section {
+        max-width: 1440px;
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -39,7 +53,7 @@
     }
 }
 
-.about-text-container{
+.about-text-container {
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -174,6 +188,6 @@
 
 .about-img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
