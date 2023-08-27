@@ -2,8 +2,8 @@
 /* PRICES */
 
 .price {
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .price-list-item {
@@ -67,6 +67,11 @@ margin-left: auto;
 
 @media screen and (min-width: 768px) {
 
+  .price {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .price-list-item {
     height: 105px;
     max-width: 704px;
@@ -83,6 +88,11 @@ margin-left: auto;
 }
 
 @media screen and (min-width: 1440px) {
+
+  .price {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
   .price-list-item {
     max-width: 1096px;
