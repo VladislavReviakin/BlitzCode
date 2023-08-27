@@ -34,7 +34,7 @@
 }
 .subcont {
     width: 100%;
-  padding: 64px 16px;
+  padding: 64px 0px;
   /* display: flex; */
   flex-wrap: wrap;
 }
@@ -190,7 +190,7 @@ line-height: 1.5;
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: cen;
+    justify-content: center;
     /* flex-wrap: wrap; */
     /* padding: 100px 140px 86px; */
     gap: 100px;
