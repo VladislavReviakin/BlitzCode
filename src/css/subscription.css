@@ -53,16 +53,18 @@
   text-transform: uppercase;
 }
 .section-text {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  max-width: 536px;
-  width: 100%;
+ 
     font-family: Roboto;
   font-size: 16px;
     font-weight: 400;
   line-height: 1.5;
 }
-
+.sub-section-text {
+   margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 536px;
+  width: 100%;
+}
 
 .subscribe-input {
   margin-bottom: 20px;
@@ -203,7 +205,10 @@ line-height: 1.5;
 .section-text {font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  margin-top: 31px;
+ 
+}
+.sub-section-title {
+   margin-top: 31px;
   margin-bottom: 21px;
 }
   .wrap-subscribe-input {
