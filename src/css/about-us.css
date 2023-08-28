@@ -74,6 +74,7 @@
 .about-section-title {
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--blue-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -87,6 +88,7 @@
 .about-title {
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--blue-font);
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -160,6 +162,7 @@
 .about-item-numbers {
     margin-top: 0;
     margin-bottom: 14px;
+    color: var(--blue-font);
     text-align: center;
     font-size: 50px;
     text-transform: uppercase;

@@ -17,6 +17,10 @@
   width: 100%;
 }
 
+.sub-section-title {
+  text-align: center;
+}
+
 /* .section-title {
   color: var(--blue-font, #0a224a);
   font-family: Roboto;
@@ -176,6 +180,7 @@ line-height: 1.5;
 .sub-section-title {
    margin-top: 31px;
   margin-bottom: 21px;
+  text-align: left;
 }
   .wrap-subscribe-input {
     max-width: 536px;
@@ -224,6 +229,10 @@ line-height: 1.5;
   .section-text {
                                                 
     font-size: 18px;
+  }
+
+  .sub-section-title {
+    text-align: left;
   }
   .sub-section-text{
      margin-bottom: 20px;
