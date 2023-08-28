@@ -1,3 +1,14 @@
+.products-title {
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .products-title {
+        margin-bottom: 30px;
+    }
+}
+
 .our-products-text {
     text-align: left;
 }
@@ -70,6 +81,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-bottom: 16px;
 }
 
 /* стилі для стрілок, що перемикабть слайди */
