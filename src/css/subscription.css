@@ -180,11 +180,11 @@ line-height: 1.5;
 
 
 
-margin-top: 31px;
+  /* margin-top: 31px;
   margin-bottom: 21px; 
  main
   text-align: left;
- }
+ } */
 
 .wrap-subscribe-input {
     max-width: 536px;
@@ -220,6 +220,10 @@ margin-top: 31px;
    font-size: 18px;
   }
 
+  .sub-section-title {
+    text-align: left;
+  }
+
 }
 
 /* ------------------------------------------------------------------ */
@@ -239,6 +243,7 @@ margin-top: 31px;
   .sub-section-title {
     text-align: left;
   }
+
   .sub-section-text{
      margin-bottom: 20px;
   }
