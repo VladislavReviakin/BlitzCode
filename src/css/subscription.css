@@ -1,8 +1,4 @@
-.container {
-  /* max-width: 1440px;
-  width: 100%; */
-  margin: 0 auto;
-}
+
 .subcont {
   width: 100%;
   padding: 64px 0px;
@@ -41,6 +37,10 @@
   width: 100%;
 }
 
+.subscribe-form {
+  margin-bottom: 30px;
+}
+
 .subscribe-input {
   margin-bottom: 20px;
   max-width: 536px;
@@ -66,16 +66,15 @@
 .subscribe-form-btn {
   background: var(--blue-font, #0a224a);
   color: var(--white);
-  padding: 17px 65px;
+  padding: 13px 94px;
   margin-top: 30px;
-  margin-bottom: 30px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   animation: blink 3s linear infinite;
-  background: #0a224a;
 }
+
 /* ---------Animation of button-------- */
 @keyframes blink {
   0%,
@@ -166,10 +165,10 @@
     /* padding: 100px 140px 86px; */
     gap: 100px;
   }
-  /* .section-title {  
-  font-size: 32px;
-  line-height: 1.41;
-} */
+  
+  .sub-section-title {
+    text-align: left;
+  }
 
   .sub-section-text {
     margin-top: 31px;
@@ -201,7 +200,7 @@
 
   .subscribe-form-btn {
     margin-top: 31px;
-    margin-bottom: 0;
+    line-height: 1.33;
   }
 
   .subscribe-accent {
@@ -238,19 +237,26 @@
 
   }
 
+  .subscribe-form {
+    margin-bottom: 64px;
+  }
+
   .subscribe-accent {
     font-size: 18px;
   }
+
   .subcont {
     padding: 100px 32px;
     /* display: flex; */
     flex-wrap: wrap;
   }
+
   .subscribe-form-btn {
     margin-top: 31px;
-    margin-bottom: 64px;
   }
+
   .subscribe-form-btn {
     font-size: 18px;
+    line-height: 1.33;
   }
 }
