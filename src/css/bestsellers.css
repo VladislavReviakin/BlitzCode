@@ -131,6 +131,8 @@ img {
       "first first second third"
       "first first fourth fifth";
     gap: 30px 22px;
+    width:1096px;
+    margin: 0 auto;
   }
 }
 
