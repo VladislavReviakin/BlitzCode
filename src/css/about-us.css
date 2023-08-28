@@ -7,8 +7,6 @@
 @media screen and (min-width: 375px) {
     .about-section {
         max-width: 375px;
-
-
     }
 }
 
@@ -31,7 +29,7 @@
 
 .about-container {
     padding-top: 64px;
-    background: var(--light-blue, #F7FAFF);
+    background: var(--light-blue);
     display: flex;
     flex-wrap: wrap;
     gap: 64px;
@@ -61,7 +59,7 @@
 @media screen and (min-width: 768px) {
     .about-text-container {
         padding: 36px 64px;
-        background: var(--light-blue, #F7FAFF);
+        background: var(--light-blue);
     }
 }
 
