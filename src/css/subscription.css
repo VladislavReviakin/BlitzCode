@@ -1,12 +1,10 @@
-
-
 .container {
   /* max-width: 1440px;
   width: 100%; */
   margin: 0 auto;
 }
 .subcont {
-    width: 100%;
+  width: 100%;
   padding: 64px 0px;
   /* display: flex; */
   flex-wrap: wrap;
@@ -37,7 +35,7 @@
 } */
 
 .sub-section-text {
-   margin-top: 31px;
+  margin-top: 31px;
   margin-bottom: 21px;
   max-width: 536px;
   width: 100%;
@@ -51,18 +49,18 @@
   background-color: transparent;
   border: 1px solid var(--dark-grey, #b6b6b6);
   padding-left: 20px;
-   font-size: 18px;
-  
-  line-height: 1.5; 
+  font-size: 18px;
+
+  line-height: 1.5;
 }
 
 .subscribe-accent {
   margin-left: 8px;
 
-  color: var(--black-gray, #7A7A7A);
+  color: var(--black-gray, #7a7a7a);
   font-family: Roboto;
   font-size: 16px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .subscribe-form-btn {
@@ -71,24 +69,23 @@
   padding: 17px 65px;
   margin-top: 30px;
   margin-bottom: 30px;
- font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   animation: blink 3s linear infinite;
-  background: #0A224A
+  background: #0a224a;
 }
 /* ---------Animation of button-------- */
 @keyframes blink {
-  0%, 20% {
+  0%,
+  20% {
     background: #a9a5a5;
   }
   10% {
     background: rgb(248, 245, 245);
   }
 }
-
-
 
 .subscribe-input:focus:invalid {
   border: 1px solid var(--error-state);
@@ -135,8 +132,8 @@ line-height: 1.5;
   border: 1px solid var(--dark-grey, #b6b6b6);
   border-radius: 2px;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 350ms
-      cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-check:checked + .subscribe-label-text .check-span {
@@ -158,8 +155,6 @@ line-height: 1.5;
   color: var(--hover-state);
 }
 
-
-
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 1440px) {
   .subcont {
@@ -174,19 +169,17 @@ line-height: 1.5;
   /* .section-title {  
   font-size: 32px;
   line-height: 1.41;
- } */
+} */
 
+  .sub-section-text {
+    margin-top: 31px;
+    margin-bottom: 21px;
+    text-align: left;
+  }
 
-
-
-
-margin-top: 31px;
-  margin-bottom: 21px; 
- main
-  text-align: left;
- }
-
+ 
 .wrap-subscribe-input {
+
     max-width: 536px;
   }
 
@@ -202,7 +195,6 @@ margin-top: 31px;
     line-height: 1.5; 
   } */
 
-
   .subscribe-input {
     margin-bottom: 22px;
   }
@@ -213,13 +205,12 @@ margin-top: 31px;
   }
 
   .subscribe-accent {
-        font-size: 18px;    
-}
-
-.subscribe-form-btn {
-   font-size: 18px;
+    font-size: 18px;
   }
 
+  .subscribe-form-btn {
+    font-size: 18px;
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -232,32 +223,34 @@ margin-top: 31px;
      line-height: 1.41;
   } */
   .section-text {
-                                                
     font-size: 18px;
   }
+
+  .sub-section-text {
+    margin-bottom: 20px;}
+
 
   .sub-section-title {
     text-align: left;
   }
   .sub-section-text{
      margin-bottom: 20px;
+
   }
 
   .subscribe-accent {
-        font-size: 18px;
-    
-}
+    font-size: 18px;
+  }
   .subcont {
     padding: 100px 32px;
     /* display: flex; */
     flex-wrap: wrap;
   }
-  .subscribe-form-btn {  
-  margin-top: 31px;
-  margin-bottom: 64px;  
-}
-.subscribe-form-btn {
-   font-size: 18px;
+  .subscribe-form-btn {
+    margin-top: 31px;
+    margin-bottom: 64px;
   }
-
+  .subscribe-form-btn {
+    font-size: 18px;
+  }
 }
