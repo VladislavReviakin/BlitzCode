@@ -1,35 +1,8 @@
 
 
-:root {
-  --dark-grey: #b6b6b6;
-  --blue-font: #0a224a;
-  --black-gray: #7a7a7a;
-  --light-gray: #d9d9d9;
-  --error-state: #e74a3b;
-  --hover-state: #0a224a;
-  --white: #fff;
-   --light-blue:   #F7FAFF;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-
-
-
 .container {
-  max-width: 1440px;
-  width: 100%;
+  /* max-width: 1440px;
+  width: 100%; */
   margin: 0 auto;
 }
 .subcont {
@@ -44,21 +17,21 @@
   width: 100%;
 }
 
-.section-title {
+/* .section-title {
   color: var(--blue-font, #0a224a);
   font-family: Roboto;
   font-size: 28px;
   font-weight: 400;
     line-height: 1.5;
   text-transform: uppercase;
-}
-.section-text {
- 
+} */
+/* .section-text { 
     font-family: Roboto;
   font-size: 16px;
     font-weight: 400;
   line-height: 1.5;
-}
+} */
+
 .sub-section-text {
    margin-top: 20px;
   margin-bottom: 30px;
@@ -82,7 +55,7 @@
 .subscribe-accent {
   margin-left: 8px;
 
-  color: #7a7a7a;
+  color: var(--black-gray, #7A7A7A);
   font-family: Roboto;
   font-size: 16px;
     line-height: 1.5;
@@ -94,7 +67,6 @@
   padding: 17px 65px;
   margin-top: 30px;
   margin-bottom: 30px;
-
  font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
@@ -182,9 +154,7 @@ line-height: 1.5;
   color: var(--hover-state);
 }
 
-/* .subscribe-picture {
-  background: var(--light-gray) -83.046px 0px / 137.761% 100% no-repeat;
-} */
+
 
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 1440px) {
@@ -197,16 +167,12 @@ line-height: 1.5;
     /* padding: 100px 140px 86px; */
     gap: 100px;
   }
-  .section-title {  
+  /* .section-title {  
   font-size: 32px;
   line-height: 1.41;
-}
+} */
 
-.section-text {font-size: 18px;
-  line-height: 1.5;
-  font-weight: 400;
- 
-}
+
 .sub-section-title {
    margin-top: 31px;
   margin-bottom: 21px;
@@ -218,17 +184,20 @@ line-height: 1.5;
   .subscribe-pic {
     max-width: 460px;
   }
-  .section-text {
+  /* .section-text {
     color: var(--blue-font, #0a224a);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5; 
-  }
+  } */
+
+
   .subscribe-input {
     margin-bottom: 22px;
   }
+
   .subscribe-form-btn {
     margin-top: 31px;
     margin-bottom: 0;
@@ -248,13 +217,16 @@ line-height: 1.5;
   .subcontainer {
     max-width: 536px;
   }
-  .section-title {  
+  /* .section-title {  
    font-size: 32px;
      line-height: 1.41;
-  }
+  } */
   .section-text {
-    margin-bottom: 20px;
+                                                
     font-size: 18px;
+  }
+  .sub-section-text{
+     margin-bottom: 20px;
   }
 
   .subscribe-accent {
