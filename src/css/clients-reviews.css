@@ -77,14 +77,14 @@ line-height: 1.4;
 }
 .wrap-img {
   display: flex;
- margin-bottom: 14px;
+ margin-bottom: 24px;
   gap: 14px;
   align-items: center;
 }
 .wrap-title {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
   /* max-width: 189px; */
   width: 100%;
 }
@@ -157,6 +157,10 @@ text-transform: uppercase;
 
 .client-list {
     gap: 16px;
+}
+
+.wrap-title {
+  gap: 4px;
 }
 
 }
