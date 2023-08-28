@@ -174,16 +174,21 @@ line-height: 1.5;
   /* .section-title {  
   font-size: 32px;
   line-height: 1.41;
-} */
+ } */
 
-.sub-section-title { 
+
+
+  .sub-section-title {
+/*    margin-top: 31px;
+  margin-bottom: 21px; */
   text-align: left;
-}
-  .wrap-subscribe-input {
+ }
+
+.wrap-subscribe-input {
     max-width: 536px;
   }
 
-  .subscribe-pic {
+.subscribe-pic {
     max-width: 460px;
   }
   /* .section-text {
@@ -214,6 +219,7 @@ line-height: 1.5;
   }
 
 }
+
 /* ------------------------------------------------------------------ */
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .subcontainer {
