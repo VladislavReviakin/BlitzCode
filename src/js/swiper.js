@@ -1,27 +1,4 @@
 const swiper = new Swiper(".image-slider", {
-  // Optional parameters
-
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,  // клік по елементам пагінацію перемикає слайди
-    dynamicBullets: true,  // динамічний розмір елементів пагінації
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  
-  // кількість слайдів, які будуть відображатися одночасно
-  //slidesPerView: 1,
-  
-  // відступ між слайдами
-  //spaceBetween: 30,
-
   //безкінечний слайд
   loop: true,
   
