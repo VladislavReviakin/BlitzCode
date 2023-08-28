@@ -37,8 +37,8 @@
 } */
 
 .sub-section-text {
-   margin-top: 20px;
-  margin-bottom: 30px;
+   margin-top: 31px;
+  margin-bottom: 21px;
   max-width: 536px;
   width: 100%;
 }
@@ -177,9 +177,10 @@ line-height: 1.5;
  } */
 
 
+
   .sub-section-title {
-   margin-top: 31px;
-  margin-bottom: 21px;
+/*    margin-top: 31px;
+  margin-bottom: 21px; */
   text-align: left;
  }
 
