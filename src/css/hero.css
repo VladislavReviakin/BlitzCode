@@ -43,10 +43,10 @@
 }
 .hero-link {
   color: var(--white);
-  line-height: 1.5;
   background-color: var(--blue-font);
   padding: 17px 76px;
-  font-weight: 400;
+  max-width: 224px;
+  max-height: 50px;
 }
 
 .hero-link:hover,
@@ -58,14 +58,14 @@
 
 @media screen and (min-width: 768px) {
   .section-hero {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 
   .foon {
     background-image: url(/img/hero/background-tab-left.jpg),
       url(/img/hero/background-tab.jpg);
     background-size: 308px, 364px;
-    background-position: left 20px top 200px, right 29px top;
+    background-position: left 32px top 200px, right 33px top;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -100,7 +100,7 @@
 
 @media screen and (min-width: 1440px) {
   .section-hero {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 
   .foon {
