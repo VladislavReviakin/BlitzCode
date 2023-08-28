@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/BlitzCode/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script type="module" crossorigin src="/BlitzCode/assets/index-81888d67.js"></script>
+    <link rel="stylesheet" href="/BlitzCode/assets/index-4daa610e.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link
-    rel="icon"
-    type="image/svg+xml"
-    href="/BlitzCode/favicon.svg"
-  />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-  <title>Vanilla App Template</title>
-  
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <script type="module" crossorigin src="/BlitzCode/assets/index-082c8b06.js"></script>
-  <link rel="stylesheet" href="/BlitzCode/assets/index-4daa610e.css">
-</head>
-
-<body>
-  <header class="header">
+  <body>
+    <header class="header">
     <div class="container">
         <nav class="header-nav">
             <a
@@ -148,8 +143,8 @@
 
     </div>
 </header>
-  <main>
-    <section class="section-hero">
+    <main>
+      <section class="section-hero">
     <div class="foon container">
         <div class="wrap-hero">
             <h1 class="hero-title">Modern and minimalist furniture for you</h1>
@@ -164,7 +159,7 @@
         </div>
     </div>
 </section>
-    <!------------------- Section About-us--- Inha------------------------------>
+      <!------------------- Section About-us--- Inha------------------------------>
 
 <section class="about-section">
   <div class="about-container">
@@ -240,7 +235,7 @@
   </div>
 </section>
 
-    
+      
     <section class="price">
       <div class="container">
         <h2 class="visually-hidden" id="prices">Chairs Tables Dressers Sofas Price</h2>
@@ -265,15 +260,11 @@
       </div>
     </section>
 
-    <section class="our-products-section wrapper">
+      <section class="our-products-section wrapper">
   <div class="container">
-    <!-- Slider main container -->
     <h2 class="section-title products-title" id="our_products">Our Products</h2>
     <div class="swiper image-slider">
-      <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-        <!-- Slides -->
-
         <div class="swiper-slide">
           <div class="image-wrapper">
             <picture>
@@ -284,7 +275,7 @@
               />
               <source
                 srcset="/BlitzCode/assets/desk-dresser-1x-e23d1dfa.webp 1x, /BlitzCode/assets/desk-dresser-2x-9056ce34.webp 2x"
-                media="(min-width:1440pxx)"
+                media="(min-width:1440px)"
                 type="image/webp"
               />
               <source
@@ -329,7 +320,7 @@
               />
               <source
                 srcset="/BlitzCode/assets/desk-sofa-1x-621c1cc2.webp 1x, /BlitzCode/assets/desk-sofa-2x-443ef12c.webp 2x"
-                media="(min-width:1440pxx)"
+                media="(min-width:1440px)"
                 type="image/webp"
               />
               <source
@@ -374,7 +365,7 @@
               />
               <source
                 srcset="/BlitzCode/assets/desk-table-1x-dd51014e.webp 1x, /BlitzCode/assets/desk-table-2x-cc1ba93f.webp 2x"
-                media="(min-width:1440pxx)"
+                media="(min-width:1440px)"
                 type="image/webp"
               />
               <source
@@ -424,7 +415,7 @@
               />
               <source
                 srcset="/BlitzCode/assets/desk-chair-1x-c1098a61.webp 1x, /BlitzCode/assets/desk-chair-2x-6c437c5f.webp 2x"
-                media="(min-width:1440pxx)"
+                media="(min-width:1440px)"
                 type="image/webp"
               />
               <source
@@ -460,17 +451,11 @@
           </div>
         </div>
       </div>
-      <!-- If we need pagination 
-        <div class="swiper-pagination"></div>-->
-
-      <!-- If we need navigation buttons 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>-->
     </div>
   </div>
 </section>
 
-    <section class="section" id="bestsellers">
+      <section class="section" id="bestsellers">
   <div class="container">
     <h2 class="bestsellers-description">Bestsellers</h2>
     <ul class="bestsellers-mainlist">
@@ -591,7 +576,7 @@
   </div>
 </section>
 
-    <section class="clients">
+      <section class="clients">
       <div class="container">
         <h2 class="section-title client-section-title " id="reviews">Clients reviews</h2>
         <div class="clients-wrap">
@@ -630,7 +615,7 @@
         </div>
       </div>
     </section>
-    <section class="subscribe" id="subscribe">
+      <section class="subscribe" id="subscribe">
       <div class="container">
         <div class="subcont">
           <div class="subcontainer">
@@ -675,8 +660,8 @@
         </div>
       </div>
     </section>
-  </main>
-  <footer
+    </main>
+    <footer
   class="footer"
   id="contacts"
 >
@@ -829,16 +814,6 @@
   </div>
 </footer>
 
-  <!--<section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <-- Path to images as from index.html file --
-      <img src="./img/javascript.svg" alt="" />
-    </section>-->
-
-  <script src="./js/mobile-menu.js"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./js/swiper.js"></script>
-</body>
-
+    
+  </body>
 </html>
