@@ -1,69 +1,3 @@
-/* === VARIABLES === */
-/* === BASE STYLES === */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-ul,
-ol {
-  padding: 0;
-  list-style: none;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--main-text);
-  background-color: var(--white-background);
-}
-address {
-  font-style: normal;
-}
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* === COMPONENT STYLES === */
-/* .container {
-  max-width: 375px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding-left: 172px;
-    padding-right: 172px;
-  }
-} */
 .section {
   padding: 64px 0;
 }
@@ -72,8 +6,6 @@ img {
     padding: 100px 0;
   }
 }
-/* === display:none === */
-/* === bestsellers SECTION === */
 .bestsellers-description {
   font-size: 28px;
   line-height: 1.5;
@@ -86,15 +18,13 @@ img {
 @media screen and (min-width: 768px) {
   .bestsellers-description {
     font-size: 32px;
-    line-height: 1, 41;
+    line-height: 1.41;
   }
 }
-
 .bestsellers-mainlist {
   display: grid;
   gap: 30px;
 }
-
 @media screen and (min-width: 768px) {
   .bestsellers-mainlist {
     grid-template-areas:
