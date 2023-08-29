@@ -150,7 +150,7 @@
   .footer-menu {
     display: inline-flex;
     position: absolute;
-    top: 36px;
+    top: 0;
     right: 250px;
     margin-bottom: 0px;
     padding: 8px 8px;
@@ -191,7 +191,7 @@
   /*! ----------------------------footer privacy---------- */
   .footer-privacy {
     opacity: 0.6;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.25; /* 125% */
     letter-spacing: 0.08em;
@@ -212,7 +212,7 @@
 
   .footer-menu {
     left: 396px;
-    top: 36px;
+    top: 0;
   }
 
   .footer-menu-list {
@@ -228,7 +228,7 @@
   .footer-contacts-number {
     max-width: 350px;
     position: absolute;
-    top: 103px;
+    top: 76px;
     left: 396px;
     margin-bottom: 0;
   }
