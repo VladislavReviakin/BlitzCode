@@ -14,6 +14,7 @@
 @import url('./clients-reviews.css');
 @import url('./subscription.css');
 @import url('./footer.css');
+@import url('./base.css');
 
 :root {
   --dark-grey: #B6B6B6;
