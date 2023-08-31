@@ -7,8 +7,6 @@
 @media screen and (min-width: 375px) {
     .about-section {
         max-width: 375px;
-
-
     }
 }
 
@@ -31,7 +29,7 @@
 
 .about-container {
     padding-top: 64px;
-    background: var(--light-blue, #F7FAFF);
+    background: var(--light-blue);
     display: flex;
     flex-wrap: wrap;
     gap: 64px;
@@ -61,7 +59,7 @@
 @media screen and (min-width: 768px) {
     .about-text-container {
         padding: 36px 64px;
-        background: var(--light-blue, #F7FAFF);
+        background: var(--light-blue);
     }
 }
 
@@ -74,6 +72,7 @@
 .about-section-title {
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--blue-font);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -87,6 +86,7 @@
 .about-title {
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--blue-font);
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -160,6 +160,7 @@
 .about-item-numbers {
     margin-top: 0;
     margin-bottom: 14px;
+    color: var(--blue-font);
     text-align: center;
     font-size: 50px;
     text-transform: uppercase;
