@@ -301,7 +301,7 @@ background-color: #dddbe1ee;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(70%, -40%);
+  transform: translate(50%, -40%);
   min-width: 375px;
   min-height: 485px;
   border-radius: 15px;
