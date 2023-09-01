@@ -246,7 +246,7 @@ margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(175%, -60%);
+  transform: translate(175%, -50%);
   min-width: 375px;
   min-height: 485px;
   border-radius: 15px;
