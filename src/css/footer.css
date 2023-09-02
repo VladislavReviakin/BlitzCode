@@ -206,7 +206,9 @@ color: var(--white);
   .item-1 {
     flex-direction: column;
   }
-
+.footer-adress-list {
+  font-size: 19px;
+}
 
   .footer-adress-list-1 {display: flex;
     flex-direction: column;
@@ -237,6 +239,9 @@ color: var(--white);
   justify-content: space-between;
   align-items: center;
 }
+.footer-contacts-link {
+  font-size: 19px;
+}
 
 .footer-number-item-1 {
   margin-top: 40px;
@@ -250,6 +255,8 @@ color: var(--white);
 
 .footer-privacy {
     text-align: center;
+    font-size: 16px;
+    line-height: 1.25;
 }
 }
 /* ======================================================= */
@@ -313,6 +320,8 @@ color: var(--white);
   }
 .footer-privacy {
     text-align: center;
+    font-size: 16px;
+    line-height: 1.25;
 }
   
   .footer-number-list{display: flex;
@@ -324,8 +333,13 @@ color: var(--white);
   .footer-adress-list {  display: flex; 
     flex-direction: column;
   }
+.footer-menu-link {
+  font-size: 18px;
+}
+
+
   .footer-adress-list {display: flex;
-    gap: 24px;
+    gap: 24px;font-size: 19px;
   }
   .item-1 {display: flex;
     flex-direction: row;
@@ -338,7 +352,7 @@ justify-content: start;
   }
   .footer-contacts-link {
     display: flex;
-   
+   font-size: 19px;
   }
   .footer-menu-list {display: flex;
     flex-direction: row;
